@@ -8,12 +8,12 @@ stages:
 build-job: 
     stage: build
     script:
-        -python3 -V
+        - python3 -V
 
 test-count:
     stage: test
     script:
-        -python3 sum.py
+        - python3 sum.py
 
 deploy-job:
     stage: deploy
